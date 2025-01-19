@@ -3,12 +3,12 @@ Dafny Verifier Tool for the Model Context Protocol, which can be used with Claud
 
 ## Dependencies
 
-- Implemented using [FastMCP](https://github.com/jlowin/fastmcp)
-- Accesses https://dafny.livecode.ch
+- Uses Dafny locally so install it, e.g. `brew install dafny` on Mac OS X.
+- Uses the [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)
+
 
 ## Setup
 
-- `uv pip install fastmcp`
-- `uv pip install requests`
-- `fastmcp install mcp.py`
-- `fastmcp dev mcp.py --with requests`
+- `uv pip install "mcp[cli]"`
+- `mcp install mcp.py`
+- `mcp dev mcp.py`
