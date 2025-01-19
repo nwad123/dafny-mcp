@@ -5,9 +5,9 @@ from mcp.server.fastmcp import FastMCP
 mcp = FastMCP("Dafny")
 
 @mcp.tool()
-def dafny_verifier(code: str, timeout: int = 1) -> str:
+def dafny_verifier(code: str) -> str:
     """Verify a Dafny code."""
-    t = timeout or 1
+    t = 2 # timeout
     v = code
 
     TMP_DIR = '/tmp/dafny/'
