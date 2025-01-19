@@ -4,7 +4,7 @@ Dafny Verifier Tool for the Model Context Protocol, which can be used with Claud
 ## Dependencies
 
 - Implemented using [FastMCP](https://github.com/jlowin/fastmcp)
-- Accesses [https://dafny.livecode.ch]()
+- Accesses https://dafny.livecode.ch
 
 ## Setup
 
