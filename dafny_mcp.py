@@ -6,7 +6,7 @@ import tempfile
 import time
 from typing import Any, Dict, List, Optional
 
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
 mcp = FastMCP("Dafny")
 
